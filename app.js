@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const { graphqlExpress, graphiqlExpress } = require('graphql-server-express');
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3001
 const schema = require('./schema/schema')
 
 const app = express()

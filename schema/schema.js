@@ -1,3 +1,4 @@
+const axios = require('axios')
 const { makeExecutableSchema } = require('graphql-tools')
 
 const typeDefs = `
@@ -14,9 +15,7 @@ const typeDefs = `
 
 const resolvers = {
   Query: {
-    user: (_, { id }) => (
-      (users.filter(o => o.id === id)[0])
-    )
+    user: (_, { id }) => axios.get(`http://localhost:3000/user/${id}`)
   }
 }
 
