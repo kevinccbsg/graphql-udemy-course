@@ -13,5 +13,11 @@
     "udemy"
   ],
   "author": "Kevin Julián Martínez Escobar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.5",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.3",
+    "lodash": "^4.17.4"
+  }
 }
