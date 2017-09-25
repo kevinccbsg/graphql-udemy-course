@@ -11,10 +11,6 @@ const typeDefs = `
     user(id: String!): User
   }
 `
-const users = [
-  { id: '23', firstName: 'Bill', age: 20 },
-  { id: '47', firstName: 'Smantha', age: 21 },
-]
 
 const resolvers = {
   Query: {
