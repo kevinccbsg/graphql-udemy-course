@@ -15,9 +15,12 @@
   "author": "Kevin Julián Martínez Escobar",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.15.5",
     "express-graphql": "^0.6.11",
     "graphql": "^0.11.3",
+    "graphql-server-express": "^1.1.2",
+    "graphql-tools": "^1.2.3",
     "lodash": "^4.17.4"
   }
 }
